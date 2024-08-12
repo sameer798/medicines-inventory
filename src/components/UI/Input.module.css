@@ -1,0 +1,40 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    margin: 0 auto; /* Center the container itself */
+    max-width: 400px; /* Set a maximum width for the input field */
+    width: 100%; /* Make the input take up the full width of its container */
+    padding: 1rem; /* Optional: Add some padding around the container */
+    font-weight: 500;
+}
+
+label {
+    font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    align-self: flex-start; /* Align the label to the start (left) */
+}
+
+input {
+    font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333333;
+    width: 100%; /* Input takes the full width of the container */
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #ff6f61;
+    outline: none;
+    background-color: #ffffff;
+}
+
+input::placeholder {
+    color: #999999;
+}

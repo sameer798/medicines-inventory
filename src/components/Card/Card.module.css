@@ -1,0 +1,11 @@
+.card {
+     /* Corrected the border syntax */
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26); /* Optional: Add shadow for a card effect */
+    margin-top: 100px;
+}
